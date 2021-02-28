@@ -2169,10 +2169,16 @@ span{
 .logo{
   display: block;
   flex-direction: row;
-  font-weight: 800;
+  font-weight: 900;
   color: #000;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 29px;
+}
+
+@media(max-width:867px){
+.logo{
+  padding-right: 360px;
+}
 }
 
 @media (max-width: 767px) {
@@ -2180,6 +2186,21 @@ span{
     padding-right: 92px;
     margin-right: 0px;
 
+  }
+}
+
+@media (max-width: 567px) {
+  .logo{
+    font-size: 19px;
+    font-weight: 800;
+
+  }
+}
+
+@media(max-width:377px){
+  .logo{
+    font-size: 19px;
+    padding-right: 10px;
   }
 }
 
@@ -3289,11 +3310,18 @@ p.form-message.success, p.form-message.error {
     transform: scale(1.2);
   }
 
+@media(max-width:867px){
+  .up-info{
+    display: none;
+  }
+}  
+
  @media (max-width: 767px) {
    .up-info{
      display: none;
    }
  }
+
 
 
  /* end */
@@ -3307,6 +3335,17 @@ p.form-message.success, p.form-message.error {
   /* background-image: url(assets\images\slider\banner.jpg); */
   background-size: cover;
   background-position: center center;
+}
+
+@media(max-width:867px){
+header .header-heading{
+  font-size: 35px;
+}
+
+header .slide-prg{
+  font-size: 20px;
+}
+
 }
 
 @media (max-width: 767px) {
@@ -3335,10 +3374,22 @@ p.form-message.success, p.form-message.error {
   }
 }
 
+@media(max-width:500px){
+  header .header-heading{
+    font-size: 50px;
+  }
+}
+
 
 .slide-image{
   height: 100vh;
   width: 100%;
+}
+
+@media(max-width:500px){
+ .slide-image{
+   height: 85vh;
+ }
 }
 
 header h1 {
@@ -3390,6 +3441,12 @@ font-weight: 500;
     font-weight: 500;
     padding-top: 25px;
   }
+
+@media (max-width: 767px) {
+  .footer-prg{
+    font-size: 20px;
+  }
+}
 
  /* end  */
 
