@@ -2373,7 +2373,7 @@ span{
             background-color: transparent;
             color: #fff; }
   .navbar-area.sticky {
-    background-color: rgb(131, 131, 131);
+    background-color:  #1e81b0;
     z-index: 999;
     position: fixed;
     -webkit-box-shadow: 0px 10px 25px 0px rgba(18, 18, 18, 0.05);
@@ -3205,7 +3205,7 @@ p.form-message.success, p.form-message.error {
 ===========================*/
 /*===== FOOTER FIVE =====*/
 .footer-area {
-  background-color: #f7f7f7;
+  background-color: #000000;
   padding-top: 3px;
   padding-bottom: 1px; }
   .footer-area .social li {
@@ -3253,7 +3253,7 @@ p.form-message.success, p.form-message.error {
   .footer-area .copyright .text {
     color: #121212; }
   .footer-area.footer-dark {
-    background-color: #121212; }
+    background-color: #000000; }
     .footer-area.footer-dark .social li a {
       color: #fff; }
     .footer-area.footer-dark .footer-support {
@@ -3266,6 +3266,16 @@ p.form-message.success, p.form-message.error {
         color: #fff; }
     .footer-area.footer-dark .copyright .text {
       color: #fff; }
+
+.footer-states{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer-states p{
+  color: #fff;
+
+}
 
 /* about us */
  .about-us{
@@ -3427,7 +3437,7 @@ header p {
   /* webkit-transform: translate(-50%, -50%); */
   /* moz-transform: translate(-50%, -50%); */
 font-size: 29px;
-font-weight: 500;
+font-weight: 700;
 }
 
 
